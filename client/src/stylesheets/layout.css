@@ -1,0 +1,59 @@
+.layout {
+  padding: 15px;
+  height: 100vh;
+}
+.sidebar {
+  background-color: var(--primary);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.body {
+  width: 100%;
+}
+.header {
+  background-color: var(--primary) !important;
+  padding: 15px;
+  border-radius: 7px;
+}
+.menu {
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 1.15rem;
+}
+.menu-item {
+  padding: 10px;
+  width: max-content;
+}
+.menu span {
+  padding-left: 15px;
+}
+.active-menu-item {
+  color: red;
+}
+
+.options {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.78);
+  padding: 10px;
+}
+
+.select-options {
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.78);
+  padding: 10px;
+  border: 2px solid var(--primary);
+}
+.timer {
+  background-color: var(--primary);
+  color: white;
+  padding: 15px 40px;
+  border-radius: 50%;
+}
+.bg-account {
+  background-color: var(--primary);
+}
+.bg-form {
+  background-color: white;
+}

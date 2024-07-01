@@ -1,0 +1,71 @@
+input {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+.ant-form-item {
+  margin-bottom: 5px !important;
+}
+.primary-container-btn {
+  padding: 10px 20px;
+  color: white !important;
+  background-color: var(--primary);
+}
+.primary-outlined-btn {
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px !important;
+  border: 2px solid var(--primary);
+}
+.save-exam-btn {
+  background-color: var(--primary) !important;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.cancel-exam-btn {
+  color: var(--primary) !important;
+  padding: 10px 25px;
+  border: 1px solid var(--primary) !important;
+  border-radius: 5px;
+}
+.add-question-btn {
+  padding: 10px;
+  border: 1px solid var(--primary) !important;
+  border-radius: 5px;
+}
+.start-now-btn {
+  padding: 10px 20px !important;
+  border-radius: 5px;
+  color: red;
+  font-style: bold !important;
+}
+
+.flex-form {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -10px; /* Trừ đi 10px ở mỗi bên để bù lại khoảng cách 20px giữa các thẻ */
+}
+
+.flex-form .input-correct {
+  flex: 1;
+  margin: 0 10px; /* Thêm 10px ở mỗi bên để tạo khoảng cách 20px giữa các thẻ */
+}
+.result {
+  background-color: rgb(120, 146, 159);
+  padding: 30px 70px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+}
+.result-box {
+  box-shadow: rgb(40, 6, 6) 0px 0px 1px;
+  padding-bottom: 20px;
+}
+.bg-success {
+  background-color: var(--success);
+}
+.bg-error {
+  background-color: var(--warning);
+}
